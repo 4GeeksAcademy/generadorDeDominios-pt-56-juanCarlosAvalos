@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello Rigo with Vanilla.js</title>
     
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    
     <!-- Fontawesome is our recomended library for icons -->
     <link
       rel="stylesheet"
@@ -82,10 +85,10 @@
         
         // Mostrar todos los dominios generados
         let domainsHTML = '<h3>Dominios Generados (' + domainsList.length + ' total):</h3>';
-        domainsHTML += '<div style="text-align: left; max-width: 800px; margin: 0 auto; background: #f8f9fa; padding: 20px; border-radius: 8px;">';
+        domainsHTML += '<div class="domains-container">';
         
         for (let i = 0; i < domainsList.length; i++) {
-          domainsHTML += '<p style="margin: 5px 0; font-family: monospace;">' + domainsList[i] + '</p>';
+          domainsHTML += '<p class="domain-item">' + domainsList[i] + '</p>';
         }
         
         domainsHTML += '</div>';

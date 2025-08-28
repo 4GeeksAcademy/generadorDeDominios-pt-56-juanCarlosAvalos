@@ -1,5 +1,22 @@
+
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
     background: white;
+}
+
+/* Contenedor de dominios */
+.domains-container {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Estilo para cada dominio */
+.domain-item {
+    margin: 5px 0;
+    font-family: monospace;
 }
